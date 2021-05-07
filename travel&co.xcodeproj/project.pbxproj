@@ -29,7 +29,6 @@
 		60DFFFAD2641C0C100BB8B33 /* Participant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFFFA12641C0C100BB8B33 /* Participant+CoreDataClass.swift */; };
 		60DFFFAF2641C0C100BB8B33 /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFFFA32641C0C100BB8B33 /* Transaction+CoreDataClass.swift */; };
 		60DFFFB12641C0C100BB8B33 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFFFA52641C0C100BB8B33 /* Category+CoreDataClass.swift */; };
-		60FD0AF1264526DB0035B9A5 /* tessss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FD0AF0264526DB0035B9A5 /* tessss.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +56,6 @@
 		60DFFFA12641C0C100BB8B33 /* Participant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Participant+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		60DFFFA32641C0C100BB8B33 /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		60DFFFA52641C0C100BB8B33 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		60FD0AF0264526DB0035B9A5 /* tessss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tessss.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				606AB0D126412DAE009EE396 /* ExpenseTableViewCell.swift */,
 				606AB0D226412DAE009EE396 /* ExpenseTableViewCell.xib */,
 				606AB1472641843C009EE396 /* DBhelper.swift */,
-				60FD0AF0264526DB0035B9A5 /* tessss.swift */,
 			);
 			path = "travel&co";
 			sourceTree = "<group>";
@@ -200,7 +197,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				606AB1482641843C009EE396 /* DBhelper.swift in Sources */,
-				60FD0AF1264526DB0035B9A5 /* tessss.swift in Sources */,
 				60DFFFA72641C0C100BB8B33 /* SharedTransaction+CoreDataClass.swift in Sources */,
 				6000D68F263EEDA400640E9B /* GroupsTableViewCell.swift in Sources */,
 				6015D642263C062D0005182C /* ViewController.swift in Sources */,
