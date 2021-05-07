@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6000D68F263EEDA400640E9B /* GroupsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6000D68D263EEDA400640E9B /* GroupsTableViewCell.swift */; };
+		6000D690263EEDA400640E9B /* GroupsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6000D68E263EEDA400640E9B /* GroupsTableViewCell.xib */; };
+		6000D693263EFB0300640E9B /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6000D692263EFB0300640E9B /* AddGroupViewController.swift */; };
 		6015D63E263C062D0005182C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015D63D263C062D0005182C /* AppDelegate.swift */; };
 		6015D640263C062D0005182C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015D63F263C062D0005182C /* SceneDelegate.swift */; };
 		6015D642263C062D0005182C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6015D641263C062D0005182C /* ViewController.swift */; };
@@ -14,9 +17,24 @@
 		6015D648263C062D0005182C /* travel_co.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6015D646263C062D0005182C /* travel_co.xcdatamodeld */; };
 		6015D64A263C062E0005182C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6015D649263C062E0005182C /* Assets.xcassets */; };
 		6015D64D263C062E0005182C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6015D64B263C062E0005182C /* LaunchScreen.storyboard */; };
+		602D5AB8263FBE34001E9244 /* AddParticipantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602D5AB6263FBE34001E9244 /* AddParticipantTableViewCell.swift */; };
+		602D5AB9263FBE34001E9244 /* AddParticipantTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602D5AB7263FBE34001E9244 /* AddParticipantTableViewCell.xib */; };
+		606AB0CF26412B20009EE396 /* ExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606AB0CE26412B20009EE396 /* ExpenseViewController.swift */; };
+		606AB0D326412DAE009EE396 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606AB0D126412DAE009EE396 /* ExpenseTableViewCell.swift */; };
+		606AB0D426412DAE009EE396 /* ExpenseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606AB0D226412DAE009EE396 /* ExpenseTableViewCell.xib */; };
+		606AB1482641843C009EE396 /* DBhelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606AB1472641843C009EE396 /* DBhelper.swift */; };
+		60DFFFA72641C0C100BB8B33 /* SharedTransaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFFF9B2641C0C100BB8B33 /* SharedTransaction+CoreDataClass.swift */; };
+		60DFFFA92641C0C100BB8B33 /* Group+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFFF9D2641C0C100BB8B33 /* Group+CoreDataClass.swift */; };
+		60DFFFAB2641C0C100BB8B33 /* Budget+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFFF9F2641C0C100BB8B33 /* Budget+CoreDataClass.swift */; };
+		60DFFFAD2641C0C100BB8B33 /* Participant+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFFFA12641C0C100BB8B33 /* Participant+CoreDataClass.swift */; };
+		60DFFFAF2641C0C100BB8B33 /* Transaction+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFFFA32641C0C100BB8B33 /* Transaction+CoreDataClass.swift */; };
+		60DFFFB12641C0C100BB8B33 /* Category+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DFFFA52641C0C100BB8B33 /* Category+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6000D68D263EEDA400640E9B /* GroupsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewCell.swift; sourceTree = "<group>"; };
+		6000D68E263EEDA400640E9B /* GroupsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupsTableViewCell.xib; sourceTree = "<group>"; };
+		6000D692263EFB0300640E9B /* AddGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
 		6015D63A263C062D0005182C /* travel&co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "travel&co.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6015D63D263C062D0005182C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6015D63F263C062D0005182C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +44,18 @@
 		6015D649263C062E0005182C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6015D64C263C062E0005182C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6015D64E263C062E0005182C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602D5AB6263FBE34001E9244 /* AddParticipantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddParticipantTableViewCell.swift; sourceTree = "<group>"; };
+		602D5AB7263FBE34001E9244 /* AddParticipantTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddParticipantTableViewCell.xib; sourceTree = "<group>"; };
+		606AB0CE26412B20009EE396 /* ExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewController.swift; sourceTree = "<group>"; };
+		606AB0D126412DAE009EE396 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		606AB0D226412DAE009EE396 /* ExpenseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseTableViewCell.xib; sourceTree = "<group>"; };
+		606AB1472641843C009EE396 /* DBhelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBhelper.swift; sourceTree = "<group>"; };
+		60DFFF9B2641C0C100BB8B33 /* SharedTransaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedTransaction+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		60DFFF9D2641C0C100BB8B33 /* Group+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Group+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		60DFFF9F2641C0C100BB8B33 /* Budget+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Budget+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		60DFFFA12641C0C100BB8B33 /* Participant+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Participant+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		60DFFFA32641C0C100BB8B33 /* Transaction+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transaction+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		60DFFFA52641C0C100BB8B33 /* Category+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 		6015D63C263C062D0005182C /* travel&co */ = {
 			isa = PBXGroup;
 			children = (
+				606AB0EB264158C6009EE396 /* Model */,
 				6015D63D263C062D0005182C /* AppDelegate.swift */,
 				6015D63F263C062D0005182C /* SceneDelegate.swift */,
 				6015D641263C062D0005182C /* ViewController.swift */,
@@ -66,8 +97,30 @@
 				6015D64B263C062E0005182C /* LaunchScreen.storyboard */,
 				6015D64E263C062E0005182C /* Info.plist */,
 				6015D646263C062D0005182C /* travel_co.xcdatamodeld */,
+				6000D68D263EEDA400640E9B /* GroupsTableViewCell.swift */,
+				6000D68E263EEDA400640E9B /* GroupsTableViewCell.xib */,
+				6000D692263EFB0300640E9B /* AddGroupViewController.swift */,
+				602D5AB6263FBE34001E9244 /* AddParticipantTableViewCell.swift */,
+				602D5AB7263FBE34001E9244 /* AddParticipantTableViewCell.xib */,
+				606AB0CE26412B20009EE396 /* ExpenseViewController.swift */,
+				606AB0D126412DAE009EE396 /* ExpenseTableViewCell.swift */,
+				606AB0D226412DAE009EE396 /* ExpenseTableViewCell.xib */,
+				606AB1472641843C009EE396 /* DBhelper.swift */,
 			);
 			path = "travel&co";
+			sourceTree = "<group>";
+		};
+		606AB0EB264158C6009EE396 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60DFFF9B2641C0C100BB8B33 /* SharedTransaction+CoreDataClass.swift */,
+				60DFFF9D2641C0C100BB8B33 /* Group+CoreDataClass.swift */,
+				60DFFF9F2641C0C100BB8B33 /* Budget+CoreDataClass.swift */,
+				60DFFFA12641C0C100BB8B33 /* Participant+CoreDataClass.swift */,
+				60DFFFA32641C0C100BB8B33 /* Transaction+CoreDataClass.swift */,
+				60DFFFA52641C0C100BB8B33 /* Category+CoreDataClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +182,10 @@
 			files = (
 				6015D64D263C062E0005182C /* LaunchScreen.storyboard in Resources */,
 				6015D64A263C062E0005182C /* Assets.xcassets in Resources */,
+				606AB0D426412DAE009EE396 /* ExpenseTableViewCell.xib in Resources */,
 				6015D645263C062D0005182C /* Main.storyboard in Resources */,
+				6000D690263EEDA400640E9B /* GroupsTableViewCell.xib in Resources */,
+				602D5AB9263FBE34001E9244 /* AddParticipantTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +196,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606AB1482641843C009EE396 /* DBhelper.swift in Sources */,
+				60DFFFA72641C0C100BB8B33 /* SharedTransaction+CoreDataClass.swift in Sources */,
+				6000D68F263EEDA400640E9B /* GroupsTableViewCell.swift in Sources */,
 				6015D642263C062D0005182C /* ViewController.swift in Sources */,
 				6015D648263C062D0005182C /* travel_co.xcdatamodeld in Sources */,
+				606AB0D326412DAE009EE396 /* ExpenseTableViewCell.swift in Sources */,
 				6015D63E263C062D0005182C /* AppDelegate.swift in Sources */,
+				60DFFFAF2641C0C100BB8B33 /* Transaction+CoreDataClass.swift in Sources */,
+				602D5AB8263FBE34001E9244 /* AddParticipantTableViewCell.swift in Sources */,
+				606AB0CF26412B20009EE396 /* ExpenseViewController.swift in Sources */,
+				60DFFFAD2641C0C100BB8B33 /* Participant+CoreDataClass.swift in Sources */,
+				6000D693263EFB0300640E9B /* AddGroupViewController.swift in Sources */,
+				60DFFFB12641C0C100BB8B33 /* Category+CoreDataClass.swift in Sources */,
 				6015D640263C062D0005182C /* SceneDelegate.swift in Sources */,
+				60DFFFA92641C0C100BB8B33 /* Group+CoreDataClass.swift in Sources */,
+				60DFFFAB2641C0C100BB8B33 /* Budget+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
